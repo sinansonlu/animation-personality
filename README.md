@@ -9,7 +9,7 @@ The following CSV files include the personality labels by different users:
 - [ZeroEGGS_Study_Results.csv](ZeroEGGS_Study_Results.csv)
 - [Bandai_Study_Results.csv](Bandai_Study_Results.csv)
 
-Our code in animation_personality.ipynb, which can work on [Google Colab](https://colab.research.google.com/), performs the following operations:
+Our code in [animation_personality.ipynb](animation_personality.ipynb), which can work on [Google Colab](https://colab.research.google.com/), performs the following operations:
 - Downloads the animation data from [Bandai](https://github.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset.git) and [ZeroEGGS](https://github.com/ubisoft/ubisoft-laforge-ZeroEGGS.git) repositories
 - Prepares the ZeroEGGS subsamples using the manually marked animation clip times in [zeroeggs_subsample_times.zip](zeroeggs_subsample_times.zip)
-- Calculates Laban Motion Analysis (LMA) features from ZeroEGGS subsamples for finding the 100 subsamples of the most unique motion features through an elimination process
+- Calculates Laban Motion Analysis (LMA) features from ZeroEGGS subsamples for finding the 100 subsamples of unique motion features through an elimination process
