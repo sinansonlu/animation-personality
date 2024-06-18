@@ -13,6 +13,7 @@ Our code in [animation_personality.ipynb](animation_personality.ipynb), which ca
 - Downloads the animation data from [Bandai](https://github.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset.git) and [ZeroEGGS](https://github.com/ubisoft/ubisoft-laforge-ZeroEGGS.git) repositories
 - Prepares the ZeroEGGS subsamples using the manually marked animation clip times in [zeroeggs_subsample_times.zip](zeroeggs_subsample_times.zip)
 - Calculates Laban Motion Analysis (LMA) features from ZeroEGGS subsamples for finding the 100 subsamples of unique motion features through an elimination process; the remaining ZeroEGGS subsamples are available in [zeroeggs_remaining_subsamples](zeroeggs_remaining_subsamples) folder where the naming `n_x_o_i_j.bvh` represents this segment's overall id with x which is the j<sup>th</sup> subsegment of the i<sup>th</sup> ZeroEGGS sample.
+- Calculates per-frame-joint position numpy array pickle files of the joints used in the study for both Bandai [(Bandai Joints)](bandai_joints.pickle) ZeroEGGS [(ZeroEGGS Joints)](zeroeggs_joints.pickle). These pickle files are used in feature analysis and personality estimation and can be used as input features for the personality labels introduced by our user study.
 
 ```
 @INPROCEEDINGS{SonluEtal2024MASSXR2024,
